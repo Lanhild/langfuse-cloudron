@@ -1,0 +1,20 @@
+{
+  "name": "io.cloudron.cloudronapp",
+  "description": "Cloudron starter application",
+  "scripts": {
+    "prepare:init": "npm i && cloudron init",
+    "build": "bash scripts/build.sh",
+    "format": "npx prettier . --write",
+    "lint:shell": "npx shellcheck -x scripts/*.sh",
+    "lint:apply": "npx shellcheck -f diff scripts/*.sh | git apply",
+    "update:prod": "bash scripts/update.sh -l prod",
+    "update:test": "bash scripts/update.sh -l test",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "prettier": "^3.3.1",
+    "cloudron": "^5.5.0",
+    "shellcheck": "^2.2.0"
+  }
+}

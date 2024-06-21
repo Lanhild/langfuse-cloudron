@@ -1,0 +1,13 @@
+.husky
+.vscode
+node_modules
+scripts
+.editorconfig
+.env
+.env.development.local
+.gitignore
+.prettierignore
+.prettierrc
+package-lock.json
+package.json
+README.md
