@@ -1,6 +1,6 @@
 {
-  "name": "io.cloudron.cloudronapp",
-  "description": "Cloudron starter application",
+  "name": "com.langfuse.cloudronapp",
+  "description": "Cloudron Langfuse application",
   "scripts": {
     "prepare:init": "npm i && cloudron init",
     "build": "bash scripts/build.sh",

@@ -1,0 +1,11 @@
+{
+  "id": "com.langfuse.cloudronapp",
+  "version": "0.1.0",
+  "healthCheckPath": "/api/public/health",
+  "httpPort": 3000,
+  "addons": {
+    "localstorage": {},
+    "postgresql": {}
+  },
+  "manifestVersion": 2
+}
