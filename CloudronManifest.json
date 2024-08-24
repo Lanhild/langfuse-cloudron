@@ -1,11 +1,29 @@
 {
   "id": "com.langfuse.cloudronapp",
+  "title": "Langfuse",
+  "author": "Langfuse GmbH / Finto Technologies Inc.",
+  "description": "file://DESCRIPTION.md",
+  "tagline": "Open source LLM engineering platform: LLM Observability, metrcis, evals, prompt management, playground, datasets.",
   "version": "0.1.0",
+  "upstreamVersion": "2",
+  "minBoxVersion": "7.5.0",
   "healthCheckPath": "/api/public/health",
+  "icon": "logo.png",
   "httpPort": 3000,
   "addons": {
     "localstorage": {},
-    "postgresql": {}
+    "postgresql": {},
+    "sendmail": {}
   },
-  "manifestVersion": 2
+  "manifestVersion": 2,
+  "website": "https://langfuse.com",
+  "contactEmail": "support@langfuse.com",
+  "tags": [
+    "ai",
+    "llm",
+    "observability",
+    "data"
+  ],
+  "documentationUrl": "https://docs.cloudron.io/apps/langfuse/",
+  "memoryLimit": 262144000
 }

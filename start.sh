@@ -27,6 +27,9 @@ export ENCRYPTION_KEY="$(cat /app/data/.encryption_key)"
 export DATABASE_URL="$CLOUDRON_POSTGRESQL_URL"
 export NEXTAUTH_URL="$CLOUDRON_APP_ORIGIN"
 
+# What's the syntax? Pending question in upstream's Discord.
+export SMTP_CONNECTION_URL=""
+
 [[ ! -f /app/data/env.sh ]] && cp /app/pkg/env.sh.template /app/data/env.sh
 
 # Overrides
